@@ -4,7 +4,7 @@
  *Main -  Print the string in the put function
  *
  * Description: using the main function
- * This program prints the value of a variable
+ * this program prints the value of a variable
  * Return: 0
  */
 int main(void)
