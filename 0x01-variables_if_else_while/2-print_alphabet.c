@@ -4,7 +4,7 @@
  *   main - to print alpahbet in lower case.
  *   creates new line
  *   Return: 0
- */   
+ */
 int main(void)
 {
 char i;
