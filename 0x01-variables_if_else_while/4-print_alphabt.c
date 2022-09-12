@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * function to print the alphabet in lowercase,
+ * Main-function to print the alphabet in lowercase,
  * followed by a new line, print alphaet except for q and e
- * return: A value of 0
+ * return: 0
  */
 int main(void)
 {
