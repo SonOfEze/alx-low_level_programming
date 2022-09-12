@@ -1,32 +1,21 @@
 #include <stdio.h>
 
 /**
- *   main - prints all possible combinations
- *   To always Return: 0
+ *   main - to print alpahbet in lower case.
+ *   creates new line
+ *   Return: 0
  */   
 
 int main(void)
 {
 
-   int n, m;
+  char i;
 
-   for (n =20; n <= 35; n++)
-   {
-   	for (m=30; m <=40; m++)
-	{
-		if (m > n)
-		{
-			putchar(n);
-			putchar(m);
+  for (i = 'a'; i <= 'z'; i++){
 
-		        if (n != 35 || m != 40)
-			{
-				putchar (',');
-				putchar (',');
-			}
-		}
-	}
-   }
+	  putchar(i);
+  }
+
    putchar('\n');
    return (0);
 
