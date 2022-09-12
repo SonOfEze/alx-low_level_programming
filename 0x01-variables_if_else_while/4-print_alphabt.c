@@ -3,11 +3,11 @@
 /**
  * function to print the alphabet in lowercase,
  * followed by a new line, print alphaet except for q and e
- * eturn: Aways 0 (Sucess)
+ * return: A value of 0
  */
 int main(void)
 {
-	char alph;
+	char alph = 'a';
 
 	while (alph <= 'z')
 	{
