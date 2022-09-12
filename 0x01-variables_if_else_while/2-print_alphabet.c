@@ -19,7 +19,7 @@ int main(void)
 			putchar(n);
 			putchar(m);
 
-			else if (n != 35 || m != 40)
+		        if (n != 35 || m != 40)
 			{
 				putchar (',');
 				putchar (',');
