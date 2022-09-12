@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * Main-function to print the alphabet in lowercase,
+ * Main - to print the alphabet in lowercase,
  * followed by a new line, print alphaet except for q and e
- * return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
+
 {
 	char alph = 'a';
 
