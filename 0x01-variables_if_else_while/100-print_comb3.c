@@ -14,7 +14,7 @@ int main(void)
 		{
 			putchar(num_a);
 			putchar(num_b);
-			if (a != 56 || b != 57)
+			if (num_a != 56 || num_b != 57)
 			{
 				putchar((num_a % 10) + '0');
 				putchar((num_b % 10) + '0');
