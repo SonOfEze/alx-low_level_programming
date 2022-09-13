@@ -6,16 +6,22 @@
  */
 int main(void)
 {
-	int a, b;
+	int num_a,num_b;
 
-	for (a = 48; a <= 56; a++)
+	for (num_a = 0; num_a < 9; num_a++)
 	{
-		for (b = 49; b <= 57; b++)
+		for (num_b = num_a + 1; num_b < 10; num_b++)
 		{
 			putchar(a);
 			putchar(b);
 			if (a != 56 || b != 57)
 			{
+				putchar((num_a % 10) + '0');
+				putchar(' num_b % 10) + '0');
+				
+				if (num_a == 8 && num_b == 9)
+
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
