@@ -1,0 +1,12 @@
+/**
+* _putchar - to write character l to stdout
+*
+* Return: 0 if success
+*
+*
+*/
+
+int _putchar(char l)
+{
+	return (write(1, &l, 1));
+}
