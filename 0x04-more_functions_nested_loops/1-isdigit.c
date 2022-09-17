@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- *main - check the code
+ *_isdigit - check the code
+ *@c: To contain value
  *Return: Always 0.
  */
 
