@@ -3,8 +3,7 @@
 
 /**
  * _isupper - check the code
- * c to be tested for value
- * @c character to be tested
+ * @c: character to be tested
  *Return: Always 0.
  */
 
