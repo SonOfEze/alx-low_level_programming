@@ -6,7 +6,7 @@
  *Return: Always 0.
  */
 
-int -isdigit(int c)
+int _isdigit(int c)
 {
 	if ((C >= 48) && (c <= 57))
 	{
