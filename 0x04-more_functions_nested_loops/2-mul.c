@@ -6,7 +6,7 @@
 *Return: total of plutiplication
 */
 
-int mul(int a int b)
+int mul(int a, int b)
 {
 	return (a * b);
 	_putchar('\n');
