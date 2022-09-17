@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isupper int c - check the code.
- * @c character to be tested.
+ * _isupper - check the code
+ * c to be tested for value
+ * @c character to be tested
  *Return: Always 0.
  */
 
