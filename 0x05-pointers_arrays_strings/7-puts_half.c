@@ -9,9 +9,9 @@
 
 void puts_half(char *str)
 {
-	int i, lenght = _strlen(str);
+	int i, length = _strlen(str);
 
-	for (i = ((len - 1) / 2) + 1; i < len; i++)
+	for (i = ((length - 1) / 2) + 1; i < length; i++)
 		putchar(*(str + i));
 	putchar(10);
 }
@@ -25,10 +25,10 @@ void puts_half(char *str)
 
 int _strlen(char *s)
 {
-	int lenght = 0;
+	int length = 0;
 
-	while (*(s + lenght) != '\0')
-		lenght++;
+	while (*(s + length) != '\0')
+		length++;
 
-	return (lenght);
+	return (length);
 }
