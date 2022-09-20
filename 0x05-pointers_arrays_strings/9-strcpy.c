@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcpy - copy &  paste string
+ * *_strcpy - copy &  paste string
  * @dest: destination
  * @src: source
  * Return destination
