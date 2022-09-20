@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int i, lenght = _strlen(str);
 
