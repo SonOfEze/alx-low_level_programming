@@ -1,7 +1,12 @@
 #include "main.h"
 
-int main (void)
+/**
+ * main - to print 1 line
+ */
+
+int main(void)
 {
+
 int n;
 int a[5];
 int *p;
@@ -11,8 +16,4 @@ p = &n;
 
 printf("a[2] = %d\n", a[2]);
 return (0);
-/**
- *
- *
- */
- }
+}
