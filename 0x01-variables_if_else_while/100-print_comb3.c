@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - to prints all possible different combinations of two digits
@@ -6,24 +7,28 @@
  */
 int main(void)
 {
-	int num_a, num_b;
-
-	for (num_a = 0; num_a < 9; num_a++)
+	int n1 = 0, n2;
+	
+	while (n1 <= 9)
 	{
-		for (num_b = num_a + 1; num_b < 10; num_b++)
+		n2 = 0;
+		while (n2 <= 9)
 		{
-			putchar(num_a, num_b);
-			if (num_a != 56 || num_b != 57)
+			if (n1 != n2 && n1 < n2)
 			{
-				putchar((num_a % 10) + '0');
-				putchar((num_b % 10) + '0');
-				if (num_a == 8 && num_b == 9)
+				putchar(n1 + 48);
+				putchar(n2 + 48);
 
-					continue;
-				putchar(',', ' ');
+				if(n1 + n2 != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			++n2;
 		}
+		++n1;
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
