@@ -16,12 +16,11 @@ int main(void)
 			if (num_a != 56 || num_b != 57)
 			{
 				putchar((num_a % 10) + '0');
-				putchar((num_b % 10) + '0');
-				
+				putchar((num_b % 10) + '0');				
 				if (num_a == 8 && num_b == 9)
 
 					continue;
-				putchar(',',' ' );
+				putchar(',', ' ');
 			}
 		}
 	}
