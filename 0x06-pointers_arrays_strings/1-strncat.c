@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - contcatenates string pointed by src
+ * _strncat - contcatenates string pointed by src
  * @dest: String to be appended
  * @src: String to be concatenated
  * @n: integer parameter to compare index
