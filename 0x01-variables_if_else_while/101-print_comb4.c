@@ -10,8 +10,8 @@
 int main(void)
 {
 	int n1 = 0;
-	int n2,
-	int n3;
+	int n2;
+	int n3 = 0;
 
 	while (n1 <= 9)
 	{
