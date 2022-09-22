@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main - prints all possible combinations of two two-digit numbers.
+ * Return: return 0
+ */
 int main(void)
 {
 	int n1 - 0, n2;
