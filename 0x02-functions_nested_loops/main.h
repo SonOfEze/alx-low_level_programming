@@ -13,7 +13,7 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 int low (int l);
 int _isalpha(int c);
-int printSign(int pSign);
+int print_sign(int n);
 int abc(int );
 int print_last_digit(int);
 void john_Doe(void);
