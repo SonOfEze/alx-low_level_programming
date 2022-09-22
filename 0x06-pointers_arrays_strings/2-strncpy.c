@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - a C function that copies a string, including the terminating null byte using most impute
+ * _strncpy - a C function that copies a string.
  * @dest: buffer that stores the string
  * @src: the source string
  * @n: max number of bytes copied
