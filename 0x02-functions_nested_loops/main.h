@@ -12,7 +12,7 @@ int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int low (int l);
-int alpha(int alph);
+int _isalpha(int c);
 int printSign(int pSign);
 int abc(int );
 int print_last_digit(int);
