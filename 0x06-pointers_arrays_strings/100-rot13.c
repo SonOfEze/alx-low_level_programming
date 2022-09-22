@@ -3,18 +3,18 @@
 /**
  * rot13 - main encoder
  * @str: string to be encoded
- * Return: address to the string encoded
+ * Return: address of  str
  */
 
 char *rot13(char *str)
 {
 	int i, j;
 
-	char a[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char a[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	char b[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefgihjklm";
+	char b[52] = "nopqrstuvwxyzabcdefgihjklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	for (i = 0; * (str + i); i++)
+	for (i = 0; *(str + i); i++)
 	{
 		for (j = 0; j < 52; j++)
 		{
