@@ -23,5 +23,6 @@ void print_to_98(void);
 void print_time_table(void);
 void num(int c, int d);
 int _islower(int c);
+void jack_bauer(void);
 
 #endif
