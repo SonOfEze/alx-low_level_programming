@@ -8,39 +8,22 @@
 
 char *rot13(char *str)
 {
-	int i = 0;
+	int i, j;
 
-	while (str[i] != '\0')
+	char a[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+	char b[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefgihjklm";
+
+	for (i = 0; * (str + i); i++)
 	{
-		str[i] = transform_2(str[i]);
-		i++;
+		for (j = 0; j < 52; j++)
+		{
+			if (a[j] == *(str + i))
+			{
+				*(s + i) = b[j];
+				break;
+			}
+		}
 	}
 	return (str);
-}
-/**
- * transform_2 - helper function to map letter with its rot13 encoding
- * @a: char to be encoded
- * return: the encoded char
- */
-
-char transform_2(char a)
-{
-	char one[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
-	char two[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefgihjklm";
-
-	int i = 0;
-
-	char replacement = a;
-
-	while (i < 52)
-	{
-		if (a == one[i])
-		{
-			replacement = two[i];
-			break;
-		}
-		i++;
-	}
-	return (replacement);
 }
