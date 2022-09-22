@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * reverse_array - function that reverts the cintect of an array
  * @a: array
