@@ -19,7 +19,7 @@ int print_last_digit(int);
 void john_Doe(void);
 void time_table(void);
 int add(int a, int b);
-void print_to_98(void);
+void print_to_98(int);
 void times_table(void);
 void num(int c, int d);
 int _islower(int c);
