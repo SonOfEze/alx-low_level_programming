@@ -80,7 +80,7 @@ static void print_base10(int sum)
  * Return: void
  */
 
-void print_times_table(int n)
+void print_times_table(int sum)
 {
 	int v, h;
 
