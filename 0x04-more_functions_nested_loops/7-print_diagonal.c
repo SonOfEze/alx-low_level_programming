@@ -5,9 +5,9 @@
  * @n: length to print to.
  */
 
-void print_diagonal(int i)
+void print_diagonal(int n)
 {
-	int prior =0, n;
+	int prior, i;
 
 	if (i <= 0)
 	{
@@ -17,7 +17,7 @@ void print_diagonal(int i)
 
 	for (i = 0; i < n; i++)
 	{
-		prior = n;
+		prior = i;
 		while (prior > 0)
 		{
 			_putchar(32);
